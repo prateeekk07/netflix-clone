@@ -38,7 +38,7 @@ nav {
 }
 
 nav img {
-    width: 114px;
+    width: 130px;
     position: relative;
     z-index: 10;
 }
@@ -190,4 +190,27 @@ section.first>div :nth-child(2) {
     max-width: 60vw;
     margin: 34px auto;
     cursor: pointer;
+}
+
+footer{
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 14px;
+}
+
+footer .questions{
+    padding: 34px 0;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
 }
