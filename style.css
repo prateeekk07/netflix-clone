@@ -134,12 +134,13 @@ nav button {
     align-items: center;
 }
 
+
 .secImg {
     position: relative;
 }
 
 .secImg img {
-    width: 30vw;
+    width: 555px;
     position: relative;
     z-index: 10;
 }
@@ -209,8 +210,75 @@ footer .questions{
     color: white;
 }
 
+footer a{
+    font-size: 14px;
+    color: white;
+}
+
 .footer-item {
     display: flex;
     flex-direction: column;
     gap: 23px;
+}
+
+.video-new{
+    top: 35px !important;
+    width: 340px !important;
+    left: 105px !important;
+    right: 0px !important;
+}
+
+@media screen and (max-width: 1300px){
+    nav{
+        max-width: 90vw;
+    }
+    .first{
+        flex-wrap: wrap;
+    }
+    .secImg img {
+        width: 350px;
+    }
+    .secImg video {
+        width: 294px;
+        top: 54px;
+    }
+    .video-new{
+        top: 20px !important;
+        width: 220px !important;
+        left: 66px !important;
+        right: 0px !important;
+    }
+    .hero> :nth-child(1) {
+        font-size: 32px;
+    }
+    .hero> :nth-child(2) {
+        font-size: 18px;
+    }
+    .hero> :nth-child(3) {
+        font-size: 18px;
+    }
+    .hero-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+    }
+    .faq h2{
+        font-size: 32px;
+    }
+    footer {
+        max-width: 90vw;
+    }
+    .footer-item {
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 1300px){
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
 }
